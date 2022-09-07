@@ -1,0 +1,91 @@
+.baldoo__cta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 0.5rem;
+    background: var(--color-bg);
+
+}
+
+.baldoo__cta::after{
+    content: '';
+    width: 800px;
+    height: 850px;
+    position: absolute;
+    margin-left: 37%;
+    border-bottom-left-radius: 90%;
+    margin-top: -700px;
+    background: #f1f1f156;
+    opacity: 0.5;
+
+}
+
+.baldoo__cta-content{
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: fit-content;
+}
+
+.baldoo__cta-content h3{
+    font-family: var(--font-primary);
+    font-size: 45px;
+    color: #f1f1f1;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+
+.baldoo__cta-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.baldoo__cta-button input{
+    padding: 8px 13px;
+    border-radius: 50px;
+    border: 0;
+    outline: 0;
+}
+
+.baldoo__cta-button button{
+    padding: 8px 35px;
+    margin-left: 10px;
+    border-radius: 50px;
+    background: #4fe9a4;
+    border: 0;
+    outline: 0;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+
+@media screen and (max-width: 700px) {
+    .baldoo__cta-content{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .baldoo__cta-content h3{
+        font-size: 25px;
+    }
+
+    .baldoo__cta-button{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .baldoo__cta-button button{
+         margin-top: 15px;
+    }
+
+
+}

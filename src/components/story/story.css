@@ -1,0 +1,52 @@
+.baldoo__story-container{
+    width: 100%;
+}
+
+.baldoo__story-content{
+    margin: 30px auto;
+    width: 50%;
+    justify-content: left;
+    align-items: left;
+    max-width: fit-content;
+}
+
+.baldoo__story-content h4{
+    font-family: var(--font-primary);
+    font-size: 14px;
+    font-weight:500;
+    color: #353535cc;
+    padding-bottom: 1rem;
+}
+
+.baldoo__story-content h2{
+    font-family: var(--font-big);
+    font-size: 40px;
+    font-weight: 100;
+    color: #010101;
+    padding-bottom: 15px;
+    line-height: 1.2;
+}
+.baldoo__story-content p{
+    color: #5e5d5d;
+    font-family: var(--font-primary);
+    font-size: 13.5px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    padding-top: 15px;
+    line-height: 1.7;
+}
+
+
+@media screen and (max-width: 700px) {
+    .baldoo__story-content{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .baldoo__story-content h2{
+           font-size: 30px;
+    }
+
+}

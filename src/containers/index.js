@@ -1,0 +1,6 @@
+export {default as Header} from './header/Header'
+export {default as Footer} from './footer/Footer'
+export {default as Banner} from './banner/Banner'
+export {default as Leader} from './leader/Leader'
+export {default as Value} from './value/Value'
+export {default as CTA} from './cta/CTA'
